@@ -30,8 +30,8 @@ const UserForm = ({addUser , updateUser ,data, submitted , isEdit}) =>{
            }}
         >
                
-           <Grid item xs={12}>
-              <Typography component={'h1'} sx={{color:'#000000'}}>User Form</Typography>
+           <Grid item xs={12} spacing={30}>
+              <Typography component={'h1'} sx={{color:'#3498DB',fontSize:'50px',fontWeight:'bold',textAlign: 'center'}}>User Form</Typography>
            </Grid>
 
            <Grid item xs={12} sm={6} sx={{display:'flex'}}>
